@@ -4,7 +4,7 @@ import pymysql
 
 # Database connection parameters - update as needed
 DB_USER=os.getenv('DB_USER') or 'root'
-DB_PSWD=os.getenv('DB_PSWD') or None
+DB_PSWD=os.getenv('DB_PSWD') or 'open_sesame_00100'
 DB_HOST=os.getenv('DB_HOST') or 'localhost'
 
 db = pymysql.connect(host=DB_HOST, 
